@@ -1,4 +1,5 @@
 (ns clj-fast.core
+  (:refer-clojure :exclude [definline])
   (:require
    [clj-fast.util :refer [as]]
    [clojure.core.protocols :as p])
