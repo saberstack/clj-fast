@@ -6,6 +6,8 @@
   (:import
    (clojure.lang Box)))
 
+(declare definline)
+
 (set! *warn-on-reflection* true)
 
 (defn entry-at
